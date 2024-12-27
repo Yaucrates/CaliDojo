@@ -27,7 +27,7 @@
                     <input name="password" type="password" class="p-2 border-[1px] border-black rounded-md" />
                 </label>
                 <button class="p-2 bg-blue-600 hover:bg-blue-700 rounded-md text-white transition-colors duration-300">Log In</button>
-                <p>Don't have an account? Click <a href="/" class="text-blue-600 hover:text-blue-700 transition-colors duration-300">here</a> to join!</p>
+                <p>Don't have an account? Click <a href="/#pricing" class="text-blue-600 hover:text-blue-700 transition-colors duration-300">here</a> to join!</p>
             </div>
         </div>
     </div>
