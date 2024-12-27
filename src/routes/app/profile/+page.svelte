@@ -1,9 +1,20 @@
-<script lang="ts">
-    import type { PageData } from './$types';
+<script>
+    import { redirect } from '@sveltejs/kit';
 
-    let { data }: { data: PageData } = $props();
+    let { data } = $props()
+    let { supabase } = $derived(data)
+
+    const logout = async () => {
+        const { error } = await supabase.auth.signOut();
+        if (error) {
+            console.error(error)
+            redirect(303, '/auth/error')
+        } else {
+            redirect(303, '/')
+        }
+    }
 </script>
-
+  
 Profile
 
-<!-- <button onclick={}></button> -->
+<button onclick={logout}>Logout</button>
