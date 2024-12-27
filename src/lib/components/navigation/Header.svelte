@@ -15,7 +15,7 @@
         </div>
 
         <div class="w-1/3 gap-4 flex justify-end items-center">
-            <a href="/login" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Sign In</a>
+            <a href="/auth" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Log In</a>
             <a href="/#pricing" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-full transition-colors duration-300">Join Now</a>
         </div>
     </nav>

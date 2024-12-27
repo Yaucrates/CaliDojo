@@ -17,11 +17,11 @@
   </script>
 
 <nav class="fixed left-0 top-0 w-96 h-screen flex flex-col bg-red-50">
-    <a href="/exercise">Exercise</a>
-    <a href="/skills">Skills</a>
-    <a href="/missions">Missions</a>
-    <a href="/leaderboard">Leaderboard</a>
-    <a href="/profile">Profile</a>
+    <a href="/app/exercise">Exercise</a>
+    <a href="/app/skills">Skills</a>
+    <a href="/app/missions">Missions</a>
+    <a href="/app/leaderboard">Leaderboard</a>
+    <a href="/app/profile">Profile</a>
 </nav>
 
 <div class="ml-96">
