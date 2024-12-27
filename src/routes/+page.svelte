@@ -21,7 +21,7 @@
             </div>
     
             <div class="w-1/3 gap-4 flex justify-end items-center">
-                <a href="/" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Sign In</a>
+                <a href="/auth" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Sign In</a>
                 <a href="/" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-black rounded-full">Join Now</a>
             </div>
         </nav>
