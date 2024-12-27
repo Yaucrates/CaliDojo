@@ -1,11 +1,9 @@
 <script>
+    import Header from '$lib/components/navigation/Header.svelte';
+
     let { children } = $props()
-  </script>
+</script>
+
+<Header />
   
-  <header>
-    <nav>
-      <a href="/">Home</a>
-    </nav>
-  </header>
-  
-  {@render children()}
+{@render children()}

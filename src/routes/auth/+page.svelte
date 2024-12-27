@@ -3,10 +3,10 @@
         Email
         <input name="email" type="email" />
     </label>
-    <label>
+    <!-- <label>
         Password
         <input name="password" type="password" />
     </label>
     <button>Login</button>
-    <button formaction="?/signup">Sign up</button>
+    <button formaction="?/signup">Sign up</button> -->
 </form>
