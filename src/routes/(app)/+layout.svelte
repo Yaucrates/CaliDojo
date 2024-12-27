@@ -1,6 +1,20 @@
-<script lang="ts">
-	let { children } = $props();
-</script>
+<script>
+    import { invalidate } from '$app/navigation'
+    import { onMount } from 'svelte'
+  
+    let { data, children } = $props()
+    let { session, supabase } = $derived(data)
+  
+    onMount(() => {
+        const { data } = supabase.auth.onAuthStateChange((_, newSession) => {
+            if (newSession?.expires_at !== session?.expires_at) {
+                invalidate('supabase:auth')
+            }
+        })
+    
+        return () => data.subscription.unsubscribe()
+    })
+  </script>
 
 <nav class="fixed left-0 top-0 w-96 h-screen flex flex-col bg-red-50">
     <a href="/exercise">Exercise</a>
