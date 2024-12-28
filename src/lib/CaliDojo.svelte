@@ -2,7 +2,7 @@
     let { scale = 1 } = $props();
 </script>
 
-<svg width={3203 * scale} height={800 * scale} viewBox="0 0 3203 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width={128 * scale} height={32 * scale} viewBox="0 0 3203 800" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="800" height="800" rx="100" fill="#1A1A1A"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M473.5 725C601.354 725 705 621.354 705 493.5C705 365.646 601.354 262 473.5 262C345.646 262 242 365.646 242 493.5C242 621.354 345.646 725 473.5 725ZM473 666C567.993 666 645 588.993 645 494C645 399.007 567.993 322 473 322C378.007 322 301 399.007 301 494C301 588.993 378.007 666 473 666Z" fill="#BCBCBC"/>
     <rect x="441" y="36" width="64" height="255" fill="#BCBCBC"/>

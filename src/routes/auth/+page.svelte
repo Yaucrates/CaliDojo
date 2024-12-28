@@ -7,7 +7,7 @@
         <header>
             <nav class="px-12 pt-6 pb-4 flex justify-between items-center">
                 <a href="/">
-                    <CaliDojo scale={0.04}/>
+                    <CaliDojo />
                 </a>
             </nav>
         </header>

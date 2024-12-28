@@ -1,5 +1,7 @@
 <script>
     import { invalidate } from '$app/navigation'
+    import CaliDojo from '$lib/CaliDojo.svelte';
+    import SideNav from '$lib/components/SideNav.svelte';
     import { onMount } from 'svelte'
   
     let { data, children } = $props()
@@ -14,16 +16,9 @@
     
         return () => data.subscription.unsubscribe()
     })
-  </script>
+</script>
 
-<nav class="fixed left-0 top-0 w-96 h-screen flex flex-col bg-red-50">
-    <a href="/app/exercise">Exercise</a>
-    <a href="/app/skills">Skills</a>
-    <a href="/app/missions">Missions</a>
-    <a href="/app/leaderboard">Leaderboard</a>
-    <a href="/app/profile">Profile</a>
-</nav>
-
-<div class="ml-96">
+<SideNav />
+<div class="ml-64">
     {@render children()}
 </div>

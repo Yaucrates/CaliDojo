@@ -5,7 +5,7 @@
 <header class="sticky top-0 z-50 backdrop-blur">
     <nav class="px-36 py-4 border-b-[1px] flex justify-between items-center border-black">
         <a href="/" class="w-1/3">
-            <CaliDojo scale={0.04}/>
+            <CaliDojo />
         </a>
 
         <div class="w-1/3 gap-12 flex justify-center items-center">
