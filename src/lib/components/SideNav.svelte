@@ -16,8 +16,4 @@
     {#each sections as section}
         <a href="/app/{section.toLowerCase()}" class="p-2 border-2 {page.url.pathname === `/app/${section.toLowerCase()}` ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} rounded-lg">{section}</a>
     {/each}
-    <!-- <a href="/app/skills" class="p-2 border-2 {page.url.pathname === "/app/skills" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} rounded-lg">Skills</a>
-    <a href="/app/missions"  class="p-2 border-2 {page.url.pathname === "/app/missions" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} rounded-lg">Missions</a>
-    <a href="/app/leaderboard"  class="p-2 border-2 {page.url.pathname === "/app/leaderboard" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} rounded-lg">Leaderboard</a>
-    <a href="/app/profile"  class="p-2 border-2 {page.url.pathname === "/app/profile" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} rounded-lg">Profile</a> -->
 </nav>
