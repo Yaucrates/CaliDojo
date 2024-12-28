@@ -1,18 +1,18 @@
 <script>
-    import { redirect } from '@sveltejs/kit';
-
+    import { goto } from '$app/navigation';
+    
     let { data } = $props()
     let { supabase } = $derived(data)
 
     const logout = async () => {
         const { error } = await supabase.auth.signOut();
         if (error) {
-            console.error(error)
-            redirect(303, '/auth/error')
+            console.error(error);
+            goto('/auth/error'); // Client-side navigation
         } else {
-            redirect(303, '/')
+            goto('/'); // Redirect to home
         }
-    }
+    };
 </script>
   
 Profile
