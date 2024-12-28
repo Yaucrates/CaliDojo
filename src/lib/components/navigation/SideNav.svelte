@@ -1,11 +1,11 @@
 <script>
     import CaliDojo from "$lib/CaliDojo.svelte";
     import { page } from '$app/state';
-    import IconAward from "./icons/IconAward.svelte";
-    import IconSwords from "./icons/IconSwords.svelte";
-    import IconBolt from "./icons/IconBolt.svelte";
-    import IconShieldChevron from "./icons/IconShieldChevron.svelte";
-    import IconUserCircle from "./icons/IconUserCircle.svelte";
+    import IconAward from "../icons/IconAward.svelte";
+    import IconSwords from "../icons/IconSwords.svelte";
+    import IconBolt from "../icons/IconBolt.svelte";
+    import IconShieldChevron from "../icons/IconShieldChevron.svelte";
+    import IconUserCircle from "../icons/IconUserCircle.svelte";
 </script>
 
 <nav class="p-5 fixed left-0 top-0 border-r-2 gap-2 w-64 h-screen flex flex-col border-neutral-200">

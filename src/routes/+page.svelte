@@ -3,7 +3,6 @@
 </script>
 
 <svelte:head>
-	<title>CaliDojo | Gamify Your Calisthencis</title>
 	<!-- <meta name="description" content="Impart is the best way of learning. All your classes are in one place accessible at anytime anywhere." /> -->
 </svelte:head>
 
