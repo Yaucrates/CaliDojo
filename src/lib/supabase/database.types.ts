@@ -12,21 +12,21 @@ export type Database = {
       user_data: {
         Row: {
           id: number
-          last_streak_update: string | null
+          last_streak_update: string
           money: number
           streak: number
           user_id: string
         }
         Insert: {
           id?: number
-          last_streak_update?: string | null
+          last_streak_update?: string
           money?: number
           streak?: number
           user_id: string
         }
         Update: {
           id?: number
-          last_streak_update?: string | null
+          last_streak_update?: string
           money?: number
           streak?: number
           user_id?: string
