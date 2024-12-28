@@ -13,18 +13,21 @@ export type Database = {
         Row: {
           id: number
           last_streak_update: string | null
+          money: number
           streak: number
           user_id: string
         }
         Insert: {
           id?: number
           last_streak_update?: string | null
+          money?: number
           streak?: number
           user_id: string
         }
         Update: {
           id?: number
           last_streak_update?: string | null
+          money?: number
           streak?: number
           user_id?: string
         }

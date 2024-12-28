@@ -42,7 +42,7 @@
                 </div>
                 <div class="gap-2 flex justify-center items-center text-yellow-500">
                     <IconMoneyBag scale={1.3} />
-                    2
+                    {user_data.money}
                 </div>
             {:else}
                 <p>An error has occured. Please contact me at abdulhusseinyousifh@gmail.com, and I'll get back ASAP!</p>
