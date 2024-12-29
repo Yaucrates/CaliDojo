@@ -1,5 +1,6 @@
 <script lang="ts">
-    import Header from '$lib/components/navigation/Header.svelte';
+    import Footer from '$lib/components/navigation/Footer.svelte';
+import Header from '$lib/components/navigation/Header.svelte';
 	import '../app.css';
 	let { children } = $props();
 </script>
@@ -13,4 +14,5 @@
 <div class="h-full flex flex-col">
     <Header />
     {@render children()}
+    <Footer />
 </div>
