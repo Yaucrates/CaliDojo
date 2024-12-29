@@ -20,23 +20,23 @@
     <a id="shop" href="/shop/#shop" class="px-12 py-3 border-[1px] text-xl font-semibold rounded-full bg-blue-500/40 border-black">Check Them Out</a>
 
     <div class="w-full px-20 gap-12 grid grid-cols-3 justify-center items-center">
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="gymnastics rings"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/gymnastics-rings.webp" alt="gymnastics rings"/>
         </div>
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="pullup bar"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/doorway-pullup-bar.webp" alt="pullup bar"/>
         </div>
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="parallettes"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/parallettes.webp" alt="parallettes" class="w-2/3"/>
         </div>
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="creatine"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/creatine.webp" alt="creatine" class="w-2/3"/>
         </div>
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="fish oil"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/fish-oil.webp" alt="fish oil" class="w-2/3"/>
         </div>
-        <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
-            <img alt="caffeine"/>
+        <div class="w-full aspect-square flex justify-center items-center bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
+            <img src="/caffeine.webp" alt="caffeine" class="w-3/4"/>
         </div>
     </div>
 </main>

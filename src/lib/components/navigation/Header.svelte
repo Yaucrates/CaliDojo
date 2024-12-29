@@ -9,8 +9,6 @@
             <a href="/" class="hover:underline">Home</a>
             <a href="/calisthenics" class="hover:underline">Calisthenics</a>
             <div class="hover:underline cursor-not-allowed">Mobility</div>
-            <div class="hover:underline cursor-not-allowed">Tricking</div>
-            <div class="hover:underline cursor-not-allowed">Combat</div>
         </div>
 
         <div class="w-1/3 gap-4 flex justify-end items-center">
