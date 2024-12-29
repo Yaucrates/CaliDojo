@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>CaliDojo | Useful Equipment and Supplements</title>
+	<meta name="description" content="A list of equipment and supplements that'll benefit you on your calisthenics journey." />
+</svelte:head>
+
 <main class="py-20 gap-16 flex flex-col justify-center items-center">
     <h1 class="text-6xl text-center font-black tracking-tighter">
         Some things to help
@@ -12,7 +17,7 @@
         a lot easier—even as a beginner.
     </h2>
 
-    <div class="px-12 py-3 border-[1px] text-xl font-semibold rounded-full bg-blue-500/40 border-black">Check Them Out</div>
+    <a id="shop" href="/shop/#shop" class="px-12 py-3 border-[1px] text-xl font-semibold rounded-full bg-blue-500/40 border-black">Check Them Out</a>
 
     <div class="w-full px-20 gap-12 grid grid-cols-3 justify-center items-center">
         <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">

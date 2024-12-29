@@ -2,11 +2,14 @@
     import Bolt from "$lib/components/logos/Bolt.svelte";
     import Book from "$lib/components/logos/Book.svelte";
     import Directions from "$lib/components/logos/Directions.svelte";
-
-
     import Home from "$lib/components/logos/Home.svelte";
-
 </script>
+
+<svelte:head>
+    <title>Calisthenics | A Comprehensive Guide to Calisthenics</title>
+	<meta name="description" content="CaliDojo is meant to provide with a reliable reference for all your calisthenics needs." />
+</svelte:head>
+
 <div class="h-full flex">
     <div class="p-8 w-96 border-r-2 gap-2 flex flex-col text-sm border-neutral-300">
         <div class="flex items-center gap-4">

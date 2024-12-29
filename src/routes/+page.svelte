@@ -1,6 +1,6 @@
 <svelte:head>
     <title>CaliDojo | A Comprehensive Guide to Mastering Your Body</title>
-	<!-- <meta name="description" content="Impart is the best way of learning. All your classes are in one place accessible at anytime anywhere." /> -->
+	<meta name="description" content="CaliDojo is meant to provide with a reliable reference for all your calisthenics needs." />
 </svelte:head>
 
 <main class="flex flex-col">
