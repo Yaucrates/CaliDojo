@@ -3,9 +3,10 @@
 </script>
 
 <header class="sticky top-0 z-50 backdrop-blur">
-    <nav class="px-36 py-4 border-b-[1px] flex justify-between items-center border-black">
-        <div class="w-1/3 gap-6 flex justify-center items-center">
+    <nav class="px-8 py-4 border-b-2 flex justify-between items-center border-neutral-300 shadow-md">
+        <div class="gap-6 flex justify-center items-center">
             <a href="/"><CaliDojo /></a>
+            <a href="/" class="hover:underline">Home</a>
             <a href="/calesthenics" class="hover:underline">Calesthenics</a>
             <a href="/mobility" class="hover:underline">Mobility</a>
         </div>

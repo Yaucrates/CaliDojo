@@ -1,1 +1,1 @@
-Equipment
+Shop
