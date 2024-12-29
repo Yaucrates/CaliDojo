@@ -7,7 +7,7 @@
         <div class="gap-6 flex justify-center items-center">
             <a href="/"><CaliDojo /></a>
             <a href="/" class="hover:underline">Home</a>
-            <a href="/calesthenics" class="hover:underline">Calesthenics</a>
+            <a href="/calisthenics" class="hover:underline">Calisthenics</a>
             <a href="/mobility" class="hover:underline">Mobility</a>
         </div>
 
