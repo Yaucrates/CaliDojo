@@ -1,6 +1,6 @@
 <svelte:head>
     <title>CaliDojo | Master Your Body</title>
-	<meta name="description" content="CaliDojo is meant to provide with a reliable reference for all your calisthenics needs." />
+	<meta name="description" content="CaliDojo is meant to provide with reliable resources on your fitness journey." />
 </svelte:head>
 
 <main class="flex flex-col">
