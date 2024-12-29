@@ -11,6 +11,9 @@
         Calisthenics is free, but a little equipment can make everything
         a lot easier—even as a beginner.
     </h2>
+
+    <div class="px-12 py-3 border-[1px] text-xl font-semibold rounded-full bg-blue-500/40 border-black">Check Them Out</div>
+
     <div class="w-full px-20 gap-12 grid grid-cols-3 justify-center items-center">
         <div class="w-full aspect-square bg-neutral-50 hover:bg-blue-100 rounded-3xl transition-colors duration-300">
             <img alt="gymnastics rings"/>
