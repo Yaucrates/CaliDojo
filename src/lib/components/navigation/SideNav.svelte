@@ -14,15 +14,15 @@
     <a href="/app/exercise" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/exercise" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
         <IconAward /> Exercise
     </a>
-    <a href="/app/skills" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/skills" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
+    <!-- <a href="/app/skills" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/skills" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
         <IconBolt /> Skills
-    </a>
-    <a href="/app/missions" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/missions" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
+    </a> -->
+    <!-- <a href="/app/missions" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/missions" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
         <IconSwords /> Missions
-    </a>
-    <a href="/app/leaderboard" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/leaderboard" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
+    </a> -->
+    <!-- <a href="/app/leaderboard" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/leaderboard" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
         <IconShieldChevron /> Leaderboard
-    </a>
+    </a> -->
     <a href="/app/profile" class="p-2 border-2 gap-2 flex items-center {page.url.pathname === "/app/profile" ? "border-sky-300 bg-sky-100" : "border-transparent hover:bg-neutral-100"} text-lg font- rounded-lg">
         <IconUserCircle /> Profile
     </a>
