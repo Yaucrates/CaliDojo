@@ -1,4 +1,4 @@
-import type { PageLoad } from './$types';
+import type { LayoutLoad } from './$types';
 
 const prerender = true;
 
@@ -14,7 +14,9 @@ export const load = (async () => {
             } | null;
             pages: {
                 title: string,
-                render: () => void,
+                render: {
+                    render: () => void
+                },
             }[];
         };
     };
@@ -55,7 +57,7 @@ export const load = (async () => {
 
             const data = {
                 title: page['metadata']['title'],
-                render: page['default']['render']
+                render: page['default']
             }
 
             topicsObj[pageNumber].pages.push(data);
@@ -68,4 +70,4 @@ export const load = (async () => {
     return {
         topics,
     };
-}) satisfies PageLoad;
+}) satisfies LayoutLoad;
