@@ -1,8 +1,15 @@
-<script>
-    import Bolt from "$lib/components/logos/Bolt.svelte";
-    import Book from "$lib/components/logos/Book.svelte";
-    import Directions from "$lib/components/logos/Directions.svelte";
-    import Home from "$lib/components/logos/Home.svelte";
+<script lang="ts">
+    import type { Component } from "svelte";
+
+    const { data }: { 
+        data: {
+            topics: {
+                pageNumber: string;
+                name: string;
+                logo: Component;
+            }[]
+        }
+    } = $props();
 </script>
 
 <svelte:head>
@@ -12,7 +19,13 @@
 
 <div class="h-full flex">
     <div class="p-8 w-96 border-r-2 gap-2 flex flex-col text-sm border-neutral-300">
-        <div class="flex items-center gap-4">
+        {#each data.topics as topic (topic.pageNumber)}
+            <div class="flex items-center gap-4">
+                <topic.logo />
+                <p class="font-medium">{topic.name}</p>
+            </div>
+        {/each}
+        <!-- <div class="flex items-center gap-4">
             <Home />
             <p class="font-medium">Getting Started</p>
         </div>
@@ -31,14 +44,11 @@
             <Book scale={1} />
             <p class="font-medium">Exercise Reference</p>
         </div>
+
         <div class="flex items-center gap-4">
             <Directions scale={1} />
             <p class="font-medium">Misc</p>
-        </div>
-        <!-- <p>1. Getting Started</p>
-        <p>2. Routines</p>
-        <p>3. Exercise Reference</p>
-        <p>4. Misc</p> -->
+        </div> -->
     </div>
 
     <div class="w-full">
