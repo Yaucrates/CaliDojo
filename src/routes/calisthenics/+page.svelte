@@ -7,6 +7,10 @@
                 pageNumber: string;
                 name: string;
                 logo: Component;
+                pages: {
+                    title: string,
+                    render: () => void,
+                }[];
             }[]
         }
     } = $props();
@@ -24,31 +28,10 @@
                 <topic.logo />
                 <p class="font-medium">{topic.name}</p>
             </div>
+            {#each topic.pages as page}
+                <p class="pl-10">{page.title}</p>
+            {/each}
         {/each}
-        <!-- <div class="flex items-center gap-4">
-            <Home />
-            <p class="font-medium">Getting Started</p>
-        </div>
-        <div class="pl-10">Introduction</div>
-        <div class="pl-10">Basic Terminology</div>
-
-        <div class="flex items-center gap-4">
-            <Bolt scale={1} />
-            <p class="font-medium">Workout Routines</p>
-        </div>
-        <div class="pl-10">The Recommended Routine</div>
-        <div class="pl-10">Beginner Routines</div>
-        <div class="pl-10">Intermediate to Advanced Routines</div>
-
-        <div class="flex items-center gap-4">
-            <Book scale={1} />
-            <p class="font-medium">Exercise Reference</p>
-        </div>
-
-        <div class="flex items-center gap-4">
-            <Directions scale={1} />
-            <p class="font-medium">Misc</p>
-        </div> -->
     </div>
 
     <div class="w-full">

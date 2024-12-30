@@ -12,6 +12,10 @@ export const load = (async () => {
             logo: {
                 render: () => void;
             } | null;
+            pages: {
+                title: string,
+                render: () => void,
+            }[];
         };
     };
 
@@ -23,7 +27,7 @@ export const load = (async () => {
           const pageType = path.split('/').reverse()[0];
       
           // If we haven't yet seen this pageNumber, create an empty record
-          topicsObj[pageNumber] ||= { pageNumber, name: null, logo: null };
+          topicsObj[pageNumber] ||= { pageNumber, name: null, logo: null, pages: [] };
       
           if (pageType === 'Logo.svelte') {
             const page = (await loadPage()) as {
@@ -39,13 +43,29 @@ export const load = (async () => {
               };
             };
             topicsObj[pageNumber].name = page.metadata.name;
+          } else {
+            const page = await loadPage() as {
+                metadata: {
+                    title: string
+                },
+                default: {
+                    render: () => void
+                },
+            };
+
+            const data = {
+                title: page['metadata']['title'],
+                render: page['default']['render']
+            }
+
+            topicsObj[pageNumber].pages.push(data);
           }
-      
-          return;
         })
       );
 
     const topics = Object.values(topicsObj);
+
+    console.log(topics);
 
     return {
         topics,
