@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { toKebabCase } from "$lib/helpers/toKebabCase";
     import type { Component } from "svelte";
 
     const { data }: { 
@@ -29,7 +30,7 @@
                 <p class="font-medium">{topic.name}</p>
             </div>
             {#each topic.pages as page}
-                <p class="pl-10">{page.title}</p>
+                <a href="/calisthenics/{toKebabCase(page.title)}" class="pl-10">{page.title}</a>
             {/each}
         {/each}
     </div>

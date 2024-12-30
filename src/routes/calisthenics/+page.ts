@@ -65,8 +65,6 @@ export const load = (async () => {
 
     const topics = Object.values(topicsObj);
 
-    console.log(topics);
-
     return {
         topics,
     };
