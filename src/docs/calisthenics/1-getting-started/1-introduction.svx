@@ -1,30 +1,30 @@
 ---
-title: Introduction
-description: This is a secondary page preview. As evident, content is displayed on this type of page.
+title: Introduction to Fitness
+description: Starting your fitness journey can be hard, but this guide is meant to give you as much knowledge as you'll need at the start.
 ---
 
-# {title}
+## To Those Who Are Weak
 
-{description}
+There's no shame in being weak. I started off my fitness journey not even being able to
+do a pushup. My best advice is to just focus on seeing your strenght go up. Don't compare
+yourself to anyone else.
 
-## Introduction to React
 
-Ever heard of the saying, "The world is your canvas; you just need the right paint?" Well, in the world of web development, React is that vibrant paint that artists - or in this case, developers - are reaching out for. But why?
+## Start Small
 
-## Why is React so popular?
+Start off doing the bare minimum. Studies show over and over that starting off by doing
+the bare minimum and slowly improving is the best way to get you to stick with something
+consistently.
 
-The allure of React isn't just a fad; it's a revolution in the web development sphere. It brings to the table a fresh perspective, a blend of JavaScript and HTML, and a modular approach to building interfaces. Have you ever imagined building a massive building by assembling Lego blocks? That's React for you!
+> Each year for New Years Resolution season and the months before summer beach season starts,
+the fitness community is flooded with those looking to achieve fitness goals who have
+repeatedly tried and failed to do so in the past. Often, the reason they have tried and
+failed is that they tried to make too many changes and do too much at once, felt overwhelmed,
+and either never started at all or were too easily tripped up.
 
-It's like a smoothie blend of JavaScript and HTML. JSX allows developers to write HTML-like structures in a JavaScript environment. Think of it as a bridge between the dynamic world of JS and the structured land of HTML.
+Honestly, just go read everything in the Fitness Wiki's [getting started with fitness](https://thefitness.wiki/getting-started-with-fitness/).
 
-## Components
+## You'll Get Stronger At What You Measure
 
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
-Imagine constructing a house. Instead of building each part from scratch, you use pre-made sections - the living room, the kitchen, bedrooms. Each of these is a 'component'. React adopts a similar strategy; you build small, reusable components and assemble them to make a full-fledged app. Neat, right?
+Write down all of your workouts. Anyone who goes to the gym and doesn't track their progress
+will almost never make consistent progress.

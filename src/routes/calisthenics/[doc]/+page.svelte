@@ -42,8 +42,10 @@
 
 {#if Article}
     <main class="flex justify-center items-center">
-        <div class="py-8 max-w-prose w-full prose">
-            <small>{topic}</small>
+        <div class="py-20 max-w-prose w-full prose">
+            <small class="mb-4">{topic}</small>
+            <h1>{page.title}</h1>
+            <p>{page.description}</p>
             <Article />
         </div>
     </main>

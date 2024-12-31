@@ -58,6 +58,7 @@ export const load = (async () => {
             };
 
             const data = {
+                number: topicsObj[pageNumber].pages.length + 1,
                 title: page['metadata']['title'],
                 description: page['metadata']['description'],
                 render: page['default']

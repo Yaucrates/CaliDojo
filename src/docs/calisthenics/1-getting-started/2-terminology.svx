@@ -1,6 +1,0 @@
----
-title: Terminology
-description: Blank
----
-
-Terminology
