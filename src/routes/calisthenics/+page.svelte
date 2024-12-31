@@ -20,8 +20,14 @@
             <a href="/calisthenics/introduction" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
                 Getting Started
             </a>
-            <a href="/calisthenics/recommended-routine" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
-                Recommended Routine
+            <a href="/calisthenics/the-recommended-routine" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+                The Recommended Routine
+            </a>
+            <a target="_blank" href="https://www.reddit.com/r/bodyweightfitness/" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+                r/BodyWeightFitness
+            </a>
+            <a href="/shop" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+                Shop
             </a>
         </div>
     </div>
