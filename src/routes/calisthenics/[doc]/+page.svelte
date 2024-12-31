@@ -5,17 +5,31 @@
 
     let { data }: { data: PageData } = $props();
     
-    const getPage = (title: string) => {
+    const getInfo = (title: string) => {
         for (let i = 0; i < data.topics.length; i++) {
             for (let j = 0; j < data.topics[i].pages.length; j++) {
                 if (toKebabCase(data.topics[i].pages[j].title) === title) {
-                    return data.topics[i].pages[j];
+                    return {
+                        topic: data.topics[i].name,
+                        page: data.topics[i].pages[j],
+                    };
+                }
+            }
+        }
+
+        return {
+            page: {
+                topic: "Topic Doesn't Exist",
+                title: "Page Doesn't Exist",
+                description: "Description Doesn't Exist",
+                render: {
+                    render: () => console.log("error")
                 }
             }
         }
     }
 
-    const page = $derived( getPage(data.slug) );
+    const { page, topic } = $derived( getInfo(data.slug) );
 
     // @ts-ignore: Idk what to tell yall honestly
     const Article = $derived ( page ? page.render as Component : null );
@@ -27,5 +41,10 @@
 </svelte:head>
 
 {#if Article}
-    <Article />
+    <main class="flex justify-center items-center">
+        <div class="py-8 max-w-prose w-full prose">
+            <small>{topic}</small>
+            <Article />
+        </div>
+    </main>
 {/if}
