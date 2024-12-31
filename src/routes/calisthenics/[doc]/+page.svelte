@@ -41,7 +41,7 @@
 </svelte:head>
 
 {#if Article}
-    <main class="flex justify-center items-center">
+    <main class="px-8 flex justify-center items-center">
         <div class="py-20 max-w-prose w-full prose">
             <small class="mb-4">{topic}</small>
             <h1>{page.title}</h1>
