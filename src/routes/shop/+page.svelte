@@ -12,14 +12,14 @@
         </span>
         along.
     </h1>
-    <h2 class="w-1/2 text-2xl text-center">
+    <h2 class="w-11/12 md:w-3/4 lg:w-1/2 text-2xl text-center">
         Calisthenics is free, but a little equipment can make everything
         a lot easier—even as a beginner.
     </h2>
 
     <a id="shop" href="/shop/#shop" class="px-12 py-3 border-[1px] text-xl font-semibold rounded-full bg-blue-500/40 border-black">Check Them Out</a>
 
-    <div class="w-full px-20 gap-12 grid grid-cols-3 justify-center items-center">
+    <div class="w-full px-8 sm:px-20 gap-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center">
         <a href="https://amzn.to/4iYH0yt" target="_blank" class="w-full aspect-square flex justify-center items-center bg-neutral-50 rounded-3xl transition-colors duration-300 overflow-hidden group relative">
             <img src="/gymnastics-rings.webp" alt="gymnastics rings" class="w-2/3"/>
 
