@@ -1,6 +1,6 @@
 import type { LayoutLoad } from './$types';
 
-const prerender = true;
+// const prerender = true;
 
 const meta = import.meta.glob('/src/docs/calisthenics/*/*');
 
