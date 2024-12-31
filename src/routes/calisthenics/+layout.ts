@@ -14,6 +14,7 @@ export const load = (async () => {
             } | null;
             pages: {
                 title: string,
+                description: string,
                 render: {
                     render: () => void
                 },
@@ -49,6 +50,7 @@ export const load = (async () => {
             const page = await loadPage() as {
                 metadata: {
                     title: string
+                    description: string
                 },
                 default: {
                     render: () => void
@@ -57,6 +59,7 @@ export const load = (async () => {
 
             const data = {
                 title: page['metadata']['title'],
+                description: page['metadata']['description'],
                 render: page['default']
             }
 

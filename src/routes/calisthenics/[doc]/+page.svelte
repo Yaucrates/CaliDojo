@@ -21,6 +21,11 @@
     const Article = $derived ( page ? page.render as Component : null );
 </script>
 
+<svelte:head>
+    <title>Calisthenics | {page?.title}</title>
+	<meta name="description" content={page?.description} />
+</svelte:head>
+
 {#if Article}
     <Article />
 {/if}
