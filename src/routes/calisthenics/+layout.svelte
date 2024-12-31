@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Bookmarks from "$lib/components/logos/Bookmarks.svelte";
+    import OpenBook from "$lib/components/logos/OpenBook.svelte";
     import X from "$lib/components/logos/X.svelte";
     import { toKebabCase } from "$lib/helpers/toKebabCase";
     import type { Snippet } from 'svelte';
@@ -50,7 +50,7 @@
         {/each}
     </div>
     <button onclick={toggle} class="w-10 h-10 fixed top-16 right-6 border-[1px] flex lg:hidden justify-center items-center bg-white border-neutral-300">
-        <Bookmarks />
+        <OpenBook />
     </button>
     {#if mobileNavOn}
         <div class="z-[59] border-l-[1px] w-screen min-[384px]:w-96 h-screen fixed top-0 right-0 bg-white border-neutral-300">
@@ -64,7 +64,7 @@
                         <p class="font-medium">{topic.name}</p>
                     </div>
                     {#each topic.pages as page}
-                        <a href="/calisthenics/{toKebabCase(page.title)}" class="w-fit pl-10">{page.title}</a>
+                        <a onclick={toggle} href="/calisthenics/{toKebabCase(page.title)}" class="w-fit pl-10">{page.title}</a>
                     {/each}
                 {/each}
             </div>

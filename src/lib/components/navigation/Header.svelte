@@ -42,11 +42,11 @@
                 <button onclick={toggle}><X /></button>
             </div>
             <div class="px-8 gap-4 flex flex-col">
-                <a href="/" class="hover:underline">Home</a>
-                <a href="/calisthenics" class="hover:underline">Calisthenics</a>
+                <a onclick={toggle} href="/" class="hover:underline">Home</a>
+                <a onclick={toggle} href="/calisthenics" class="hover:underline">Calisthenics</a>
                 <div class="hover:underline cursor-not-allowed">Mobility</div>
-                <a href="/shop" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Shop</a>
-                <a href="https://www.reddit.com/r/bodyweightfitness/" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
+                <a onclick={toggle} href="/shop" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Shop</a>
+                <a onclick={toggle} href="https://www.reddit.com/r/bodyweightfitness/" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
             </div>
         </div>
     {/if}
