@@ -15,10 +15,10 @@
         }
     }
 
-    const page = getPage(data.slug);
+    const page = $derived( getPage(data.slug) );
 
     // @ts-ignore: Idk what to tell yall honestly
-    const Article = page ? page.render as Component : null;
+    const Article = $derived ( page ? page.render as Component : null );
 </script>
 
 {#if Article}
