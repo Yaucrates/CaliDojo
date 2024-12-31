@@ -56,7 +56,7 @@
             </div>
         </a>
         <a href="https://amzn.to/3C1Q70J" target="_blank" class="w-full aspect-square flex justify-center items-center bg-neutral-50 rounded-3xl transition-colors duration-300 overflow-hidden group relative">
-            <img src="/caffeine.webp" alt="Caffeine" class="w-3/4"/>
+            <img src="/caffeine.webp" alt="Caffeine" class="w-1/3"/>
 
             <div class="w-full h-full absolute top-0 left-0 flex justify-center items-center opacity-0 group-hover:opacity-100 bg-gradient-to-t from-neutral-300 to-transparent transition-opacity duration-300">
                 <div class="text-3xl font-black">Caffeine</div>
