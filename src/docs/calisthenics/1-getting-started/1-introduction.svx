@@ -3,13 +3,6 @@ title: Introduction to Fitness
 description: Starting your fitness journey can be hard, but this guide is meant to give you as much knowledge as you'll need at the start.
 ---
 
-## To Those Who Are Weak
-
-There's no shame in being weak. I started off my fitness journey not even being able to
-do a pushup. My best advice is to just focus on seeing your strenght go up. Don't compare
-yourself to anyone else.
-
-
 ## Start Small
 
 Start off doing the bare minimum. Studies show over and over that starting off by doing
@@ -28,3 +21,9 @@ Honestly, just go read everything in the Fitness Wiki's [getting started with fi
 
 Write down all of your workouts. Anyone who goes to the gym and doesn't track their progress
 will almost never make consistent progress.
+
+## To Those Who Are Weak
+
+There's no shame in being weak. I started off my fitness journey not even being able to
+do a pushup. My best advice is to just focus on seeing your strenght go up. Don't compare
+yourself to anyone else.
