@@ -1,5 +1,5 @@
 <script>
-    import CaliDojo from "$lib/CaliDojo.svelte";
+    import CaliDojo from "$lib/components/logos/CaliDojo.svelte";
     import Hamburger from "../logos/Hamburger.svelte";
 
     let mobileNavOn = $state(false);

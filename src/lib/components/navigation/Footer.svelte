@@ -1,5 +1,5 @@
 <script>
-    import CaliDojoText from "$lib/CaliDojoText.svelte";
+    import CaliDojoText from "$lib/components/logos/CaliDojoText.svelte";
 </script>
 
 <footer class="px-6 py-12 sm:p-16 gap-12 md:gap-0 flex flex-col md:flex-row justify-around items-center bg-neutral-900">
