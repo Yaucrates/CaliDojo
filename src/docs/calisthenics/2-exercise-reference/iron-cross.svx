@@ -1,6 +1,0 @@
----
-title: Iron Cross
-description: Blank
----
-
-Ion gon iron cross cus

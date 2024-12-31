@@ -1,6 +1,0 @@
----
-title: Ring Pushup
-description: Blank
----
-
-Ring Pushup
