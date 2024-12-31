@@ -5,7 +5,7 @@
 
 <main class="p-8 h-full flex flex-col justify-center items-center">
     <div class="flex flex-col justify-center items-center">
-        <h1 class="text-5xl text-center font-black tracking-tighter">Welcome to the 
+        <h1 class="text-4xl sm:text-5xl text-center font-black tracking-tighter">Welcome to the 
             <span class="text-nowrap w-fit relative">
                 Calisthenics Bible
                 <div class="w-full h-5 bg-blue-500/40 absolute bottom-2 right-1"></div>

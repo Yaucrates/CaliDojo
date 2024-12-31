@@ -1,10 +1,22 @@
 <script>
     import CaliDojo from "$lib/components/logos/CaliDojo.svelte";
-    import Hamburger from "../logos/Hamburger.svelte";
+    import Hamburger from "$lib/components/logos/Hamburger.svelte";
+    import X from "$lib/components/logos/X.svelte";
 
     let mobileNavOn = $state(false);
     const toggle = () => {
         mobileNavOn = !mobileNavOn;
+
+        if (mobileNavOn) {
+            // Scroll to the top of the page
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Disable scrolling
+            document.body.style.overflow = 'hidden';
+        } else {
+            // Enable scrolling
+            document.body.style.overflow = 'auto';
+        }
     }
 </script>
 
@@ -23,4 +35,19 @@
         </div>
         <button onclick={toggle} class="block lg:hidden"><Hamburger /></button>
     </nav>
+
+    {#if mobileNavOn}
+        <div class="border-l-[1px] w-screen min-[384px]:w-96 h-screen fixed top-0 right-0 bg-white border-neutral-300">
+            <div class="py-5 px-8 flex justify-end">
+                <button onclick={toggle}><X /></button>
+            </div>
+            <div class="px-8 gap-4 flex flex-col">
+                <a href="/" class="hover:underline">Home</a>
+                <a href="/calisthenics" class="hover:underline">Calisthenics</a>
+                <div class="hover:underline cursor-not-allowed">Mobility</div>
+                <a href="/shop" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Shop</a>
+                <a href="https://www.reddit.com/r/bodyweightfitness/" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
+            </div>
+        </div>
+    {/if}
 </header>

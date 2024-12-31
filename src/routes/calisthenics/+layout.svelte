@@ -32,7 +32,7 @@
             {/each}
         {/each}
     </div>
-    <button class="w-[40px] h-[40px] fixed top-[64px] right-[25px] border-[1px] flex lg:hidden justify-center items-center bg-white border-neutral-300">
+    <button class="w-10 h-10 fixed top-16 right-6 border-[1px] flex lg:hidden justify-center items-center bg-white border-neutral-300">
         <Bookmarks />
     </button>
 
