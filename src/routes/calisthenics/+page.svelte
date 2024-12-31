@@ -5,8 +5,8 @@
 
 <main class="p-8 h-full flex flex-col justify-center items-center">
     <div class="flex flex-col justify-center items-center">
-        <h1 class="text-5xl font-black tracking-tighter">Welcome to the 
-            <span class="w-fit relative">
+        <h1 class="text-5xl text-center font-black tracking-tighter">Welcome to the 
+            <span class="text-nowrap w-fit relative">
                 Calisthenics Bible
                 <div class="w-full h-5 bg-blue-500/40 absolute bottom-2 right-1"></div>
             </span>
@@ -20,17 +20,17 @@
             There's a lot of information out there about Calisthenics, and it's nice to have all of it
             in just one place. Feel free to explore.
         </h2>
-        <div class="mt-16 gap-6 grid grid-cols-2">
-            <a href="/calisthenics/introduction-to-fitness" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+        <div class="mt-16 gap-6 grid grid-cols-1 md:grid-cols-2">
+            <a href="/calisthenics/introduction-to-fitness" class="px-12 py-3 max-w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
                 Getting Started
             </a>
-            <a href="/calisthenics/the-recommended-routine" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
-                The Recommended Routine
+            <a href="/calisthenics/the-recommended-routine" class="px-12 py-3 max-w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+                Recommended Routine
             </a>
-            <a target="_blank" href="https://www.reddit.com/r/bodyweightfitness/" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+            <a target="_blank" href="https://www.reddit.com/r/bodyweightfitness/" class="px-12 py-3 max-w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
                 r/BodyWeightFitness
             </a>
-            <a href="/shop" class="px-12 py-3 w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
+            <a href="/shop" class="px-12 py-3 max-w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
                 Shop
             </a>
         </div>
