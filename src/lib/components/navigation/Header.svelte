@@ -31,7 +31,7 @@
 
         <div class="w-1/3 gap-4 hidden lg:flex justify-end items-center">
             <a href="/shop" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Shop</a>
-            <a href="https://github.com/Yaucrates/docs/tree/5d96e31a91cf07b686952c3a7b038f7ae62901a1" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
+            <a href="https://www.reddit.com/r/bodyweightfitness/about/" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
         </div>
         <button onclick={toggle} class="block lg:hidden"><Hamburger /></button>
     </nav>
@@ -46,7 +46,7 @@
                 <a onclick={toggle} href="/calisthenics" class="hover:underline">Calisthenics</a>
                 <div class="hover:underline cursor-not-allowed">Mobility</div>
                 <a onclick={toggle} href="/shop" class="border-[1px] px-6 py-[6px] flex justify-center items-center font-medium text-black  border-neutral-900 rounded-full">Shop</a>
-                <a onclick={toggle} href="https://github.com/Yaucrates/docs/tree/5d96e31a91cf07b686952c3a7b038f7ae62901a1" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
+                <a onclick={toggle} href="https://www.reddit.com/r/bodyweightfitness/about/" target="_blank" class="px-6 py-[6px] flex justify-center items-center font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-full transition-colors duration-300">Get Involved</a>
             </div>
         </div>
     {/if}

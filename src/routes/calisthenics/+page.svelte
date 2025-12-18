@@ -13,8 +13,8 @@
         </h1>
         <h2 class="mt-6 w-3/4 text-xl text-center">
             There's a lot of information out there about Calisthenics, and it's nice to have all of it
-            in just one place. If you'd like to get involved and help improve this reference,
-            <a href="https://github.com/Yaucrates/docs/tree/5d96e31a91cf07b686952c3a7b038f7ae62901a1" class="text-blue-500">click here</a>. Otherwise, feel free to explore.
+            in just one place. If you'd like to get involved in the calisthenics community,
+            <a href="https://www.reddit.com/r/bodyweightfitness/about/" class="text-blue-500">click here</a>. Otherwise, feel free to explore.
         </h2>
         <div class="mt-16 gap-6 grid grid-cols-1 md:grid-cols-2">
             <a href="/calisthenics/introduction-to-fitness" class="px-12 py-3 max-w-96 h-16 flex justify-center items-center text-xl font-medium rounded-lg bg-neutral-100 hover:bg-blue-100 transition-colors duration-300">
